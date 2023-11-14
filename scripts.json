@@ -1,7 +1,8 @@
 {
   "$schema": "https://deno.land/x/denon@2.5.0/schema.json",
   "allow": [
-    "all"
+    "net",
+    "read"
   ],
   "watch": true,
   "scripts": {
