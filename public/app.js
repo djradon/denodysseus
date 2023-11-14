@@ -27,7 +27,7 @@ function addMessage(username, message) {
   // displays new message
   document.getElementById(
     "conversation"
-  ).innerHTML += `<b> ${username} </b>: ${message} <br/>`;
+  ).innerHTML += `<i> ${username} </i>: ${message} <br/>`;
 }
 
 // on page load

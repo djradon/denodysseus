@@ -1,0 +1,15 @@
+{
+  "$schema": "https://deno.land/x/denon@2.5.0/schema.json",
+  "allow": [
+    "all"
+  ],
+  "watch": true,
+  "scripts": {
+    "start": {
+      "cmd": "deno run server.js",
+      "desc": "run my stuff",
+      "unstable": true,
+      "inspect": "127.0.0.1:9229"
+    }
+  }
+}
